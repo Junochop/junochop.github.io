@@ -3,32 +3,80 @@ body {
 	font-family: 'Muli', sans-serif;
 }
 
-ul {
+
+/*contact page style */
+#contacts > ul {
 	list-style-type: none;
-    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    
+    
+}
+
+#contacts > * li {
+    float: center;
+
+    
+}
+
+#contacts > * li:hover {
+    opacity: 0.5;
+}
+
+/* nav bar style*/
+nav > ul {
+	list-style-type: none;
+    margin: 0;    
     padding: 0;
     overflow: hidden;
     background-color: #333
-
-
+    
 }
 
-li {
+nav > * li {
     float: left;
     
 }
 
-li a {
+nav > * li a {
     display: block;
     color: lightgrey;
     text-align: center;
-    padding: 16px 16px;
+    padding: 12px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+nav > * li a:hover {
+    background-color: #112;
+    color: white;
+}
+
+nav > * li a:hover:not {
     background-color: #111;
 }
 
-.active {
-    background-color: #4CAF50;
+
+
+/*heading style */
+ .titlefont {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+
+}
+
+/*footer style*/
+footer {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ display: block;
+ padding: 8px 8px;
+ font-size: 10px; 
+}
