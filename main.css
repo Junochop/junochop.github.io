@@ -33,11 +33,13 @@ nav > ul {
     padding: 0;
     overflow: hidden;
     background-color: #333
+
     
 }
 
 nav > * li {
     float: left;
+    font-size: 10px;
     
 }
 
@@ -52,6 +54,7 @@ nav > * li a {
 nav > * li a:hover {
     background-color: #112;
     color: white;
+    padding: 12px 21px;
 }
 
 nav > * li a:hover:not {
@@ -79,4 +82,54 @@ footer {
  display: block;
  padding: 8px 8px;
  font-size: 10px; 
+}
+
+/*blog style*/
+.product {
+	width: 400px;
+	border: 2px solid slategray;
+	margin: 1%
+}
+
+.image img  {
+  max-width: 100%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  
+}
+
+.description > * {
+    text-align: center;
+	margin: 0;
+}
+.description {
+	padding: 2%;
+}
+
+.description h6 {
+  font-size: 1.5em;
+  padding: 2%;
+
+}
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Card layout*/
+#product-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*Sold out*/
+.product {
+	position: relative;
+	
+}
+.sold-out {
+	position: absolute;
+	top: 90px;
 }
