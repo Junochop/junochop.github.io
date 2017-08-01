@@ -27,7 +27,7 @@ body {
 }
 
 /* nav bar style*/
-nav > ul {
+#navbar > ul  {
 	list-style-type: none;
     margin: 0;    
     padding: 0;
@@ -37,13 +37,13 @@ nav > ul {
     
 }
 
-nav > * li {
+#navbar >  * li {
     float: left;
     font-size: 10px;
     
 }
 
-nav > * li a {
+#navbar > * li a {
     display: block;
     color: lightgrey;
     text-align: center;
@@ -51,13 +51,13 @@ nav > * li a {
     text-decoration: none;
 }
 
-nav > * li a:hover {
+#navbar > * li a:hover {
     background-color: #112;
     color: white;
     padding: 12px 21px;
 }
 
-nav > * li a:hover:not {
+#navbar > * li a:hover:not {
     background-color: #111;
 }
 
@@ -128,8 +128,4 @@ footer {
 .product {
 	position: relative;
 	
-}
-.sold-out {
-	position: absolute;
-	top: 90px;
 }
