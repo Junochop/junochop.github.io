@@ -1,0 +1,44 @@
+{
+	"blogs": [{
+			"name": "Blog1",
+			"date": "7.31.2017",
+			"content": "Preparation of JS! Learn how to setup github and github commands."
+		},
+		{
+			"name": "Blog2",
+			"date": "8.07.2017",
+			"content": "Build a temperature converter! Check your spelling and then check again!"
+		},
+		{
+			"name": "Blog3",
+			"date": "8.14.2017",
+			"content": "Group Project1. Work together and github push and pull.  Resolve conflicts and then merge!"
+		},
+		{
+			"name": "Blog4",
+			"date": "8.22.2017",
+			"content": "Event Listener!  Target and then add your event listener!"
+		},
+		{
+			"name": "Blog5",
+			"date": "8.29.2017",
+			"content": "XHR and JSON!  Different... but useful!  Check your JSON file with JLINT tool!"
+		},
+		{
+			"name": "Blog6",
+			"date": "9.05.2017",
+			"content": "ES6!  Const and Let. Another way to declare a function.  Use your FAT Arrow!"
+		},
+		{
+			"name": "Blog7",
+			"date": "9.18.2017",
+			"content": "Bootstrap!  Include JQuery, Bootstrap.  Order, Arrangement matters!"
+		},
+		{
+			"name": "Blog8",
+			"date": "10.07.2017",
+			"content": "Broweserify, includes NPM installation!  Grunt experiment gone bold.  Error Alert!"
+		}
+
+	]
+}
