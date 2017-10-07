@@ -14,35 +14,41 @@ const blog = [
 
 ];
 
-console.log("blog", blog, blog.length);
+console.log("blog", blog, blog[0].url);
+
+let blogHold = document.getElementById('blog-holder');
 
 
- domString = () => {
-	let domStrings = '';
-	console.log("hi");
-    for (let i = 0; i < blog.length; i++) {
-	   domStrings += `<div class="crap">`;
-	   domStrings += `<div class="name">"${blog[i].name}"</div>`;
-	   domStrings += `<div>${blog[i].color}" </div>`;
-	   domStrings += `<img src="${blog[i].url}">`;
-	   domStrings += `</div>`;
-	   return domStrings;
+const domWrite = (array) => {
+	let newdomStrings = [];
+	console.log(array);
+    for (let i = 0; i < array.length; i++) {
+	   let domStrings = "";
+	   domStrings += 
+	  `<div>
+	   ${array[i].name}
+	   ${array[i].color}
+	   <img src=${array[i].url}>
+	   </div>`;
+	  console.log("hi", domStrings);
+	   newdomStrings += domStrings;
+
 	}
 	
 	
+	writeToDom(newdomStrings);
 
-	
-	writeToDom(array);
-debugger;
-	}
+    
+}
 
-
-
-writeToDom = (strang) => {
-	document.getElementById('blog-holder').innerHTML = strang;
+const writeToDom = (strang) => {
+	blogHold.innerHTML = strang;
 }
 
   
+
+domWrite(blog);
+
 
 // var blog1 = {
 // 	title: "",
