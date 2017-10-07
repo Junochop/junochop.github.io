@@ -85,7 +85,7 @@ footer {
 }
 
 /*blog style*/
-.product {
+.blogCard {
 	width: 400px;
 	border: 2px solid slategray;
 	margin: 1%
@@ -118,7 +118,7 @@ footer {
 }
 
 /*Card layout*/
-#product-container {
+.product-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

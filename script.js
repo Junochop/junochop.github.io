@@ -1,34 +1,30 @@
-//const menuButton = document.querySelectorAll('#navbar'.li);
 
-//menuButton.addEventListener = ('click', () => {
-	//menuButton.style.display = 'padding: 40px;'
+// const blog = [
 
-	
-//});
-const blog = [
-
-{name: "Blog1", color: "Green", url: "http://static.boredpanda.com/blog/wp-content/uploads/2014/12/green-cat-varna-bulgaria-11.jpg"},
-{name: "Blog2", color: "White", url: "http://www.petsworld.in/blog/wp-content/uploads/2014/09/Ragdoll1.jpg"},
-{name: "Blog3", color: "Red", url: "http://static2.businessinsider.com/image/5723622"}
+// {name: "Blog1", color: "Green", url: "https://cdn2.iconfinder.com/data/icons/mobile-suit-gundam/48/Paul-21-512.png"},
+// {name: "Blog2", color: "White", url: "https://cdn2.iconfinder.com/data/icons/mobile-suit-gundam/48/Paul-13-512.png"},
+// {name: "Blog3", color: "Red", url: "https://cdn2.iconfinder.com/data/icons/mobile-suit-gundam/48/Paul-32-512.png"}
 
 
-];
+// ];
 
-console.log("blog", blog, blog[0].url);
+
+
+
 
 let blogHold = document.getElementById('blog-holder');
 
-
+let newdomStrings = [];
 const domWrite = (array) => {
-	let newdomStrings = [];
+	
 	console.log(array);
     for (let i = 0; i < array.length; i++) {
 	   let domStrings = "";
 	   domStrings += 
-	  `<div>
-	   ${array[i].name}
-	   ${array[i].color}
-	   <img src=${array[i].url}>
+	  `<div class="blogCard">
+	   <div>${array[i].name}</div>
+	   <div>${array[i].date}</div>
+	   <div>${array[i].content}</div>
 	   </div>`;
 	  console.log("hi", domStrings);
 	   newdomStrings += domStrings;
@@ -45,9 +41,27 @@ const writeToDom = (strang) => {
 	blogHold.innerHTML = strang;
 }
 
+function executeThisCodeAfterFileLoads() {
+  //console.log("this", this.responseText);
+  var data = JSON.parse(this.responseText);
+  domWrite(data.blogs); //data
+  
+}
+
+function executeThisCodeAfterFileErrors() {
+  console.log("Shit broke");
+
+}
+
+var myRequest = new XMLHttpRequest();
+myRequest.addEventListener("load", executeThisCodeAfterFileLoads);
+myRequest.addEventListener("error", executeThisCodeAfterFileErrors);
+myRequest.open("GET", "blogs.json");//type request, get file
+myRequest.send();
+
   
 
-domWrite(blog);
+//domWrite(blog);
 
 
 // var blog1 = {
