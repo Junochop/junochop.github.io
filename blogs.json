@@ -1,4 +1,7 @@
-{ "journalBlogs": [
+
+
+{
+  "journalBlogs": [
   {
         "id": "blog1",
         "date": "FEB 27, 2018",
