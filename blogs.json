@@ -43,6 +43,18 @@
     "date": "April 17, 2018",
     "title": "Week 8: Task Runner and Browserify",
     "post": "This week, we learned how to use Browserify and Task Runner. There are certan rules and settings to follow in order to execute the files.  All files should be structured in a certain way; they can be compartmentalized. It was good to learn a different way to organize functions and data by utilizing the newly learned lessons in class."
+  },
+  {
+    "id": "blog8",
+    "date": "April 24, 2018",
+    "title": "Week 10: Task Runners and Browserify. ",
+    "post": "This week, we explored more on Task Runner and Browserify. We learned how to setup a getter and setter method when we are dealing with a Data file(JSON file).  The most difficult part of this lecture is to follow the guidelines and rules. Understanding of a process of passing/following a parameter was another difficult challenge. "
+  },
+  {
+    "id": "blog9",
+    "date": "May 1, 2018",
+    "title": "Week 11: Chatty group project. ",
+    "post": "This week, we are assigned with a group project.  The new group that I was in was confident.  There were some challenges, however everyone did a fantastic job and was able to handle a give pressure. out there.  We achieved additional tasks that were assigned to our group.  There was an issue with my work because I was not prepared and also did struggle with using a getter and setter method.  Overall, everyone did a great job."
   }
 ]
 }
