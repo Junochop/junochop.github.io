@@ -55,6 +55,12 @@
     "date": "May 1, 2018",
     "title": "Week 11: Chatty group project. ",
     "post": "This week, we are assigned with a group project.  The new group that I was in was confident.  There were some challenges, however everyone did a fantastic job and was able to handle a given pressure and met all of our objectives that were assigned.  We achieved additional tasks, stretched goals.  I ran into  an issue with my task because I was not prepared and also did struggle with using a getter and setter method.  Overall, everyone did a great job."
+  },
+  {
+    "id": "blog10",
+    "date": "May 15, 2018",
+    "title": "Week 12: JQUERY. ",
+    "post": "This week,we learned Jquery and did a class excersice with this.This Jquery changed the coding work simpler by creating less line of codes and it was easy to use by browsing through Jquery library. Not going through a loop of an object/array made me feel good about using Jquery."
   }
 ]
 }
