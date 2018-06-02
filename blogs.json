@@ -61,6 +61,18 @@
     "date": "May 15, 2018",
     "title": "Week 12: JQUERY. ",
     "post": "This week,we learned Jquery and did a class excersice with this.This Jquery changed the coding work simpler by creating less line of codes and it was easy to use by browsing through Jquery library. Not going through a loop of an object/array made me feel good about using Jquery."
+  },
+  {
+    "id": "blog11",
+    "date": "May 22, 2018",
+    "title": "Week 13: Promises. ",
+    "post": "We learned Promises in class.  It teaches us how to operate an asynchornous calls.  Instead of calling all callbacks it will decide to call one of them on eventual completion or failure."
+  },
+  {
+    "id": "blog12",
+    "date": "May 29, 2018",
+    "title": "Week 14: API. ",
+    "post": "We learned API in class and did a class excersice with utilizing a tool called FIREBASE. It was interesting to know not to share your API key or keys to the public.  Callan gave us an example where she dealt with a stolen API key issue.  There are unique ways to represent information.  Each API should come with its own guidelines and configuration settings."
   }
 ]
 }
