@@ -73,6 +73,18 @@
     "date": "May 29, 2018",
     "title": "Week 14: API. ",
     "post": "We learned API in class and did a class excersice with utilizing a tool called FIREBASE. It was interesting to know not to share your API key or keys to the public.  Callan gave us an example where she dealt with a stolen API key issue.  There are unique ways to represent information.  Each API should come with its own guidelines and configuration settings."
+  },
+  {
+    "id": "blog13",
+    "date": "June 5, 2018",
+    "title": "Week 16: Firebase ",
+    "post": "Firebase... This week was very eventful for me.  I just realized that Firebase gave me a bit of inspiration to push myself harder than before. It was interesting to learn how to utilize Firebase's realtime database.  It's great that we use this tool to host my site and as well as my other projects that I have worked on previously.  I welcome a new way to manage my website/projects with Firebase platform!  "
+  },
+  {
+    "id": "blog14",
+    "date": "June 12, 2018",
+    "title": "Week 15: Firebase Auth. ",
+    "post": "Interestingly Firebase also offers an user authentication service.  By managing Firebase Auth, I am able to enable user authentication with email and password stored with Firebase."
   }
 ]
 }
