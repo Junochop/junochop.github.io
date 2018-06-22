@@ -29,7 +29,7 @@ const writeToDom = (strang) => {
 
 function executeThisCodeAfterFileLoads() {
   //console.log("this", this.responseText);
-  var data = JSON.parse(this.responseText);
+  const data = JSON.parse(this.responseText);
   domWrite(data.journalBlogs); //data
 
 }
