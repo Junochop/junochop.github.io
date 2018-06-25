@@ -1,5 +1,5 @@
 {
-"project1": {
+"project1": [{
   "title": "Totally Project 1",
   "thumbnail": "https://XXX.jpg",
   "description": "This is a product and technical description for the project",
@@ -7,4 +7,5 @@
   "available": true,
   "url": "https://XXX.firebaseapp.com",
   "github": "https://github.com/XXX"
+}]
 }
